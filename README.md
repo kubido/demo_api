@@ -1,4 +1,5 @@
 # HOW TO RUN
+## SETUP
 * bundle install
 * setup your local database config in `config/database.yml`
 ```
@@ -11,6 +12,8 @@
 * rake `db:create` `db:migrate`
 * rails s
 
+## TEST
+* run `rspec`
 
 # ENDPOINTS
 ## `POST /create_page` - create url index
