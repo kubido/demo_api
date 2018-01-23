@@ -18,6 +18,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'pg'
 gem 'nokogiri'
 gem 'kaminari'
+gem 'rest-client'
 
 
 group :development, :test do
