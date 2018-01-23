@@ -1,0 +1,5 @@
+development:
+  adapter: postgresql
+  database: api_dev
+  username: ror
+  password: ror

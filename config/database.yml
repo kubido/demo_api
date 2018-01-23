@@ -1,5 +1,0 @@
-development:
-  adapter: postgresql
-  database: interview_api_dev
-  username: ror
-  password: rifkifauzi

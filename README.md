@@ -1,24 +1,22 @@
-# README
+# HOW TO RUN
+* bundle install
+* setup your local database config in `config/database.yml`
+```
+  development:
+    adapter: postgresql
+    database: api_dev
+    username: ror
+    password: ror
+```
+* rake `db:create` `db:migrate`
+* rails s
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+# ENDPOINTS
+## `POST /create_page` - create url index
+request to `POST /create_page` with params `url (mandatory)`
 
-* Ruby version
+## `GET /pages` - list url already indexed
+request to `GET /pages` with params `page (optional)` eg `/pages?page=1`
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
